@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.3.0**
+# **CF21 - Gestión agroempresarial**
 
-## **Enlace GitHubPages**
+## **Monitoreo y evaluación del proceso de poscosecha en la producción agrícola.**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/GESTION_AGROEMPRESARIAL_CF21/](https://ecored-sena.github.io/GESTION_AGROEMPRESARIAL_CF21/)
 
 #
 

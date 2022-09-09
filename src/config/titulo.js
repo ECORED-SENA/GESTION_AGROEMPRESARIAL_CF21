@@ -1,2 +1,2 @@
 module.exports =
-  'Componente Formativo con un nombre extremadamente largo y extenso'
+  'Monitoreo y evaluación del proceso de poscosecha en la producción agrícola.'

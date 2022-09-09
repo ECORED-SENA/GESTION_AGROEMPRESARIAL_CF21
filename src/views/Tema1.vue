@@ -2,23 +2,42 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero 
+        span 1
+      h1 Registro de actividades en la poscosecha
 
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
+    
+
+    Separador 
+
+    #t_1_1.titulo-segundo.color-acento-contenido
+      .h2 1.1	Registros de volúmenes de producción y calidad 
+
+    
+
+    Separador 
+
+    #t_1_2.titulo-segundo.color-acento-contenido
+      .h2 1.2	Registros de seguimiento de actividades 
+
+    
+
+    Separador 
+
+    #t_1_3.titulo-segundo.color-acento-contenido
+      .h2 1.3	Registros de pérdida de la cosecha 
+
+
+
+
   
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),
