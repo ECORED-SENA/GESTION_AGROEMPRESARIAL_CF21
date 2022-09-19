@@ -119,9 +119,8 @@
                 img(src='@/assets/curso/tema1/5.png' alt='AvatarTop')
             .col
              .row.align-items-center 
-                .col-md-10
-                  p.mb-4 Existen otros registros que son de diligenciamiento diario o semanal de acuerdo al tipo de producción. En ellos se escriben los datos de uso de mano de obra, uso de insumos, costos, eventos del cultivo, producción, pérdidas, eventos climáticos, etc.
-                  p.mb-0 Los registros deben ser sencillos, completos, mantenerse al día, útiles y confiables. Generalmente se escriben a mano y luego se transfiere la información a software especializados a producciones agrícolas.
+                .col-md-12
+                  p.mb-4 Indudablemente, esto se presenta en las empresas por muchos factores, la mayoría externos, como el clima u otras condiciones que alteran el normal desarrollo de la cosecha; sin embargo, es necesario llevar un control y registro de las pérdidas, teniendo en cuenta las causas, el tipo de producto, la cantidad y la época del año en que se registra, entre otros datos que se consideren importantes para el análisis de las causas y la formulación de acciones de mejora o de corrección a la que haya lugar.
 
     p.mb-4 Las causas de la pérdida de estos alimentos, entre otras más son:
 

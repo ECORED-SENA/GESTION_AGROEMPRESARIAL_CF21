@@ -107,9 +107,71 @@
     #t_2_2.titulo-segundo.color-acento-contenido
       .h4 2.2	Formatos 
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12.position-relative
+        .crd.crd--avatarHorizontal4.py-2
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema2/img4.jpg' alt='AvatarTop')
+            .col
+             .row.align-items-center 
+                .col-md-12
+                  p.mb-4 Indudablemente, esto se presenta en las empresas por muchos factores, la mayoría externos, como el clima u otras condiciones que alteran el normal desarrollo de la cosecha; sin embargo, es necesario llevar un control y registro de las pérdidas, teniendo en cuenta las causas, el tipo de producto, la cantidad y la época del año en que se registra, entre otros datos que se consideren importantes para el análisis de las causas y la formulación de acciones de mejora o de corrección a la que haya lugar.
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-6
+        .tarjeta.color4.p-4
+          .row 
+            .col-md-2
+              figure
+                img(src='@/assets/curso/tema2/2.png' alt='AvatarTop')
+            .col-md-10
+              h5 Análisis del formato
+              p Analizar si el formato es una herramienta conveniente para el área que lo solicita. 
+      .col-md-6
+        .tarjeta.color4.p-4
+          .row 
+            .col-md-2
+              figure
+                img(src='@/assets/curso/tema2/3.png' alt='AvatarTop')
+            .col-md-10
+              h5 Definición de campos
+              p.mb-0 Definir los campos necesarios para que la información registrada proporcione evidencia de la realización de una actividad. 
    
-    
-    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-7
+        p.mb-2 Un formato, generalmente, contiene información precisa y concreta; no hay necesidad de plasmar párrafos muy extensos, solo la información necesaria para el análisis de los resultados. Las partes que conforman un formato son: 
+        ul.lista-ul--color
+          li 
+            i.fas.fa-angle-right
+            | Encabezado.
+          li 
+            i.fas.fa-angle-right
+            | Cuerpo.
+          li 
+            i.fas.fa-angle-right
+            | Identificación. 
+        .tarjeta.color5.p-3
+          p.mb-0 Uno de los tipos de formatos, ampliamente utilizado en los procesos de producción, son las listas de chequeo, las cuales permiten la identificación de las actividades de cada proceso.
+      .col-md-5
+        figure
+          img(src='@/assets/curso/tema2/img5.jpg' alt='AvatarTop')
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12.position-relative
+        .crd.crd--avatarHorizontal5.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/4.png' alt='AvatarTop').img3
+            .col
+             .row.align-items-center 
+                .col-md-10
+                  p.mb-4 El uso de herramientas no adecuadas, la recolección incorrecta, la manipulación de los productos, el tiempo de almacenamiento, empaquetado y el transporte a sitio final también son situaciones que generan pérdidas, por tal razón se deben extremar las medidas en la poscosecha ya que no solo es en la etapa de crecimiento del producto sino en todo el ciclo productivo.
+                .col-md-2
+                  figure
+                    img(src='@/assets/curso/tema2/4.png' alt='AvatarTop').img4
     
 </template>
 
