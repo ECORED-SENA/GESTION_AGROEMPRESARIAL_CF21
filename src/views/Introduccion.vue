@@ -7,18 +7,14 @@
       .titulo-principal__numero
         span
           i.fas.fa-info
-      h1 Introducción
+      h1 Introducción  
     
-    p.mb-5 El SENA da la bienvenida al estudio del componente formativo “Monitoreo y evaluación del proceso de poscosecha en la producción agrícola”, se espera que todos los participantes tengan una buena experiencia de aprendizaje. Comience con la observación del video que se muestra enseguida. 
-    p ¡Adelante!
+    p.mb-4 El SENA da la bienvenida al estudio del componente formativo <b> <FONT COLOR="#A3314F"> “Monitoreo y evaluación del proceso de poscosecha en la producción agrícola”, </FONT> </b> se espera que todos los participantes tengan una buena experiencia de aprendizaje. Comience con la observación del video que se muestra enseguida. 
+    p.mb-4 <b> <FONT COLOR="#A3314F"> ¡Adelante! </FONT> </b>
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
-    
-    
-
+        iframe(width="942" height="530" src="https://www.youtube.com/embed/WOGUq8Nz2kY" title="Monitoreo y evaluación del proceso de poscosecha en la producción agrícola" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

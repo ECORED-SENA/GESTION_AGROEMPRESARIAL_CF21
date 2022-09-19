@@ -82,3 +82,161 @@
 
 .cs
   overflow-y: hidden
+
+////Tema 1
+
+.color1
+  background-color: #EEF0CD
+  height: 540px
+  @media (max-width: 1400px)
+    height: auto
+
+.color2
+  background-color: #F1E0E5
+  border-radius: 0px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 4rem
+  & > *
+    position: relative
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 100px)
+    height: 100%
+    background-color: #F8F9EA
+    border-radius: 0px
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.img1
+  width: 240px
+  @media (max-width: 1000px)
+    width: auto
+
+.bloque-texto-g 
+  position: relative
+  display: flex
+  justify-content: flex-start
+
+.bloque-texto-g__texto 
+  position: relative
+  width: 70%
+  background-color: rgba(255, 255, 255, 0.95)
+
+.bloque-texto-g__img 
+  width: 40%
+  position: absolute
+  top: 0px
+  left: 60%
+  bottom: 0
+  background-position: center
+  background-size: cover
+  @media (max-width: 1000px)
+    width: 100%
+    position: absolute
+    top: 0px
+    left: 0%
+    bottom: 0
+    background-position: center
+    background-size: cover
+
+.crd--avatarHorizontal2
+  position: relative
+  padding-right: 4rem
+  & > *
+    position: relative
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 600px)
+    height: 100%
+    background-color: #F1E0E5
+    border-radius: 0px
+
+.crd--avatarHorizontal3
+  position: relative
+  padding-right: 4rem
+  & > *
+    position: relative
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 25%
+    right: 0
+    width: calc( 100% - 120px)
+    height: 163px
+    background-color: #F8F9EA
+    border-radius: 0px
+
+.img3
+  width: 295px
+  @media (max-width: 1000px)
+    width: auto
+
+///Tema2
+
+.color3
+  background-color: #F1E0E5
+  border-radius: 0px
+
+.bloque-texto-g1 
+  position: relative
+  display: flex
+  justify-content: flex-start
+
+.bloque-texto-g1.color-amarillo
+  background-color: #CED371
+
+.bloque-texto-g1__img 
+  width: 40%
+  position: absolute
+  top: 0px
+  right: 60%
+  bottom: 0
+  background-position: center
+  background-size: cover
+
+.bloque-texto-g1__texto 
+  position: relative
+  width: 60%
+  background-color: rgba(255, 255, 255, 0.95)
+  right: -35%
+
+.linea-tiempo-d.color-linea .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+  background-color: #E8CBD3
+  color: #12263F
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #E8CBD3
+
+.clr-paleYellow4
+  background-color: #F1E0E5
+  border-radius: 20px
+
+.img-infografica.color-secundario .img-infografica__item__dot:before, .img-infografica.color-secundario .img-infografica__item__dot:after, .img-infografica.color-secundario .img-infografica-b__item__dot:before, .img-infografica.color-secundario .img-infografica-b__item__dot:after, .img-infografica-b.color-secundario .img-infografica__item__dot:before, .img-infografica-b.color-secundario .img-infografica__item__dot:after, .img-infografica-b.color-secundario .img-infografica-b__item__dot:before, .img-infografica-b.color-secundario .img-infografica-b__item__dot:after
+  background-color: #FFB500
+
+.img-infografica__item__dot:before, .img-infografica__item__dot:after, .img-infografica-b__item__dot:before, .img-infografica-b__item__dot:after
+  content: ''
+  display: block
+  width: 150%
+  height: 150%
+  border-radius: 50%
+  position: absolute
+  top: 0
+  left: 0
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out
+  opacity: .4
