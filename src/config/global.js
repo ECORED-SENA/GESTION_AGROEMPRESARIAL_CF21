@@ -176,79 +176,72 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Emanuelli, P., Egidos, D., Orúzar, I., García, D., Dorado, C., Ulla, C., Cárcar, M., y Blanco, C. (2012). Herramientas de metodología para investigar en comunicación: técnicas de recolección y análisis de la información. Primera edición. Editorial Copy-Rápido',
-      link:
-        ' https://filadd.com/doc/tomo2-1-manual-herramientas-de-metodol-para',
+      referencia: 'Concepto.de. (2021). Cómo hacer un informe. Concepto.de',
+      link: 'https://concepto.de/como-hacer-un-informe/',
     },
     {
       referencia:
-        'Congreso de Colombia. (2008). Ley estatutaria 1266 de 2008, Por la cual se dictan las disposiciones generales del hábeas data y se regula el manejo de la información contenida en bases de datos personales, en especial la financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones. Diciembre 31 de 2008. DO. Nº 47.219.',
+        'Escalante, J. (2019). Registros de producción agrícola para el mejoramiento de la toma de decisión. Researchgate.',
       link:
-        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=34488',
+        'https://www.researchgate.net/publication/330635315_REGISTROS_DE_PRODUCCION_AGRICOLA_PARA_EL_MEJORAMIENTO_DE_LA_TOMA_DE_DECISION',
     },
     {
       referencia:
-        'Congreso de Colombia. (2012). Ley estatutaria 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. Octubre 17 de 2012. DO. Nº 48.587.',
-      link:
-        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html',
+        'Gómez, C. (2012). Identificación de oportunidades de mejora en procesos de neurorrehabilitación. UPM.',
+      link: 'https://oa.upm.es/19986/1/INVE_MEM_2012_135123.pdf',
     },
     {
       referencia:
-        'Pérez, A. (2020). Las 4 fases del ciclo de vida de los datos. OBS Business School.',
+        'Universidad UNADE. (2019). Control de Calidad de alimentos.  UNADE.',
       link:
-        'https://www.obsbusiness.school/blog/las-4-fases-del-ciclo-de-vida-de-los-datos',
-    },
-    {
-      referencia:
-        'Qualtrics.com. (2020). Cómo calcular el tamaño de una muestra: asegúrese de que el muestreo sea correcto. Qualtrics.com',
-      link:
-        'https://www.qualtrics.com/es-la/gestion-de-la-experiencia/investigacion/calcular-tomano-muestra/',
+        'https://unade.edu.mx/control-de-calidad-de-alimentos/#:~:text=La%20calidad%20alimentaria%2C%20producto%20de,durante%20una%20cadena%20de%20calidad',
     },
   ],
   glosario: [
     {
-      termino: 'Fenómeno',
+      termino: 'Diagrama de flujo',
       significado:
-        'Cualquier situación o manifestación que se percibe con los sentidos.',
+        'Es la representación gráfica de las etapas de un proceso o procedimiento de acuerdo con unas convenciones universales.',
     },
     {
-      termino: 'Inferencia',
-      significado: 'Que deduce una afirmación a partir de otras.',
-    },
-    {
-      termino: 'Muestra',
-      significado: 'Conjunto de población sobre la que se extraerán los datos.',
-    },
-    {
-      termino: 'Población',
-      significado: 'Totalidad de individuos objeto de estudio.',
-    },
-    {
-      termino: 'Proyección',
+      termino: 'Formato',
       significado:
-        'Diseño de una situación de forma anticipada a su ocurrencia.',
+        'Documento empleado para el registro de información necesaria para realizar un proceso o actividad.',
     },
     {
-      termino: 'Variable',
+      termino: 'Procesamiento',
+      significado: 'Forma específica de llevar a cabo una actividad o proceso.',
+    },
+    {
+      termino: 'Proceso',
       significado:
-        'Características de los sujetos objeto de investigación, a través de la recolección de información, en un proceso estadístico.',
+        'Conjunto de actividades mutuamente relacionadas o que interactúan, las cuales transforman elementos de entrada en resultados.',
+    },
+    {
+      termino: 'Registro',
+      significado:
+        'Documento que presenta resultados o proporciona evidencia de actividades desempeñadas.',
+    },
+    {
+      termino: 'Revisión',
+      significado:
+        'Actividad que consiste en verificar que el contenido de un documento corresponde a lo que se hace.',
     },
   ],
   complementario: [
     {
-      tema: 'Estadística',
+      tema: 'Registro de actividades en la poscosecha',
       referencia:
-        'Matemáticas profe Alex. (2017). Conceptos básicos de estadística ',
+        'Jsilveragro. (2019). Registro de actividades agrícolas [video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=Xq3thcQqwbc',
+      link: 'https://www.youtube.com/watch?v=W0I2JN40g1g',
     },
     {
-      tema: 'Métodos de recolección de datos',
+      tema: 'Acciones correctivas del manejo de la poscosecha',
       referencia:
-        'Unicef Innocenti. (2014). Métodos de recolección y análisis de datos en la evaluación de impacto ',
+        'Instituto Profesional Los Leones (2020). Cómo construir un informe técnico. Taller de proyectos integrados [video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=Ph1WX0cH5-4',
+      link: 'https://www.youtube.com/watch?v=uK9j9sjTNM0',
     },
   ],
   creditos: {

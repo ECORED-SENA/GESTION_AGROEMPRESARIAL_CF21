@@ -102,9 +102,67 @@
     #t_3_3.titulo-segundo.color-acento-contenido
       .h4 3.3	Mermas de la poscosecha
 
-   
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-5
+        figure
+          img(src='@/assets/curso/tema3/img3.jpg' alt='AvatarTop')
+      .col-md-7
+        p.mb-4 Las cosechas realizadas, por ejemplo, en horas de alta temperatura y fuerte radiación solar o en momentos en que las hortalizas de hojas están mojadas por el rocío de la noche, dan lugar a un producto con niveles importantes de deshidratación o suciedad por la adherencia de partículas de tierra.
+        .tarjeta.color3.p-4
+          p.mb-0 Todas estas condiciones y/o efectos ocasionan la depreciación del producto para el mercado o el encarecimiento de los costos de beneficio al tener que, por ejemplo, hidratarlo (cosa que no siempre es factible) o lavarlo, antes de poderlo comercializar.
+    p.mb-4 En palabras más generales, la merma de la poscosecha tiene que ver directamente con:
+    .row.align-items-center.mb-5
+      .col-md-7
+        .row.justify-content-center   
+          .col-lg-12
+            LineaTiempoD.color-linea
+              .row.align-items-center(numero="1" titulo="Manejos impertinentes") 
+                .col-md-12
+                  p.mb-2 Inadecuado manejo del momento y procedimiento de cosecha.
+                  figure.p-4
+                    img(src='@/assets/curso/tema3/1.jpg' alt='AvatarTop')
+
+              .row.align-items-center(numero="2" titulo="Atemporalidad")
+                .col-md-12
+                  p.mb-2 El retraso o adelanto del momento óptimo de cosecha afecta la efectividad de la poscosecha. 
+                  figure.p-4
+                    img(src='@/assets/curso/tema3/2.jpg' alt='AvatarTop')
+
+              .row.align-items-center(numero="3" titulo="Deterioros")
+                .col-md-12
+                  p.mb-2 Un producto cosechado antes o después del momento adecuado reduce su vida de poscosecha, deteriorándose con mayor rapidez o exigiendo el empleo de medios de conservación o manipulaciones mucho más costosos.
+                  figure.p-4
+                    img(src='@/assets/curso/tema3/3.jpg' alt='AvatarTop')
+
+              
+              .row.align-items-center(numero="4" titulo="Acciones equívocas de traslado y carga")
+                .col-md-12
+                  p.mb-2 El poco cuidado en las operaciones de carga y traslado de la cosecha ocasiona daños mecánicos o quemaduras de sol a los productos, obligando a una cara selección de la poscosecha y a destinar los productos afectados al consumo animal, con la consiguiente pérdida de valor. 
+                  figure.p-4
+                    img(src='@/assets/curso/tema3/4.jpg' alt='AvatarTop')
 
 
+              .row.align-items-center(numero="5" titulo="Almacenamiento o empaquetamiento adverso")
+                .col-md-12
+                  p.mb-2 Las insuficientes condiciones materiales de los envases y los medios de transporte o almacenamiento contribuyen también, sensiblemente, a estas pérdidas.
+                  figure.p-4
+                    img(src='@/assets/curso/tema3/5.jpg' alt='AvatarTop')
+
+      .col-md-5
+        figure
+          img.p-2(src='@/assets/curso/tema3/img4.jpg' alt='')
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12.position-relative
+        .crd.crd--avatarHorizontal3.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/4.png' alt='AvatarTop').img3
+            .col
+             .row.align-items-center 
+                .col-md-12
+                  p.mb-4 Son múltiples los eventos que pueden perjudicar la conservación del producto en buen estado, son factores determinantes en la disminución de los productos finales. Por ello, es clave apelar a la buena planeación del proceso de poscosecha y aplicar registros, seguimientos, formatos, estadísticas, control, entre otras.
 </template>
 
 <script>
