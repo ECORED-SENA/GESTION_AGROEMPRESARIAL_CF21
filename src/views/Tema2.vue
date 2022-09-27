@@ -81,7 +81,7 @@
 
           .tarjeta.clr-paleYellow4.p-4(x="49.4%" y="2.4%" numero="")
             .h5.mb-4 Planificar, establecer, implementar y mantener programa de auditoría
-            p La auditoría en ISO 9001 es un requisito de la norma, como tal, requiere programar auditorías periódicas, asignar recursos, delegar responsabilidades, asegurar la disponibilidad de auditores y de la información relativa a las auditorías anteriores <b> <FONT COLOR="#A3314F"> Todo ello, en su conjunto, conforma un programa de auditoría. </FONT> </b>
+            p La auditoría en ISO 9001 es un requisito de la norma, como tal, requiere programar auditorías periódicas, asignar recursos, delegar responsabilidades, asegurar la disponibilidad de auditores y de la información relativa a las auditorías anteriores. <b> <FONT COLOR="#A3314F"> Todo ello, en su conjunto, conforma un programa de auditoría. </FONT> </b>
 
           .tarjeta.clr-paleYellow4.p-3(x="89%" y="21.5%" numero="")
             .h5.mb-4 Definir el alcance de la auditoría
@@ -117,7 +117,8 @@
             .col
              .row.align-items-center 
                 .col-md-12
-                  p.mb-4 Indudablemente, esto se presenta en las empresas por muchos factores, la mayoría externos, como el clima u otras condiciones que alteran el normal desarrollo de la cosecha; sin embargo, es necesario llevar un control y registro de las pérdidas, teniendo en cuenta las causas, el tipo de producto, la cantidad y la época del año en que se registra, entre otros datos que se consideren importantes para el análisis de las causas y la formulación de acciones de mejora o de corrección a la que haya lugar.
+                  p.mb-4 Un formato es un documento empleado para el registro de información necesaria para un proceso o actividad.
+                  p.mb-0 Para la elaboración de los formatos que hacen parte del Sistema Integrado de Gestión Institucional se deben considerar aspectos como:
     
     .row.justify-content-center.align-items-center.mb-4
       .col-md-6

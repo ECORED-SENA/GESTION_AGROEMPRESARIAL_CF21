@@ -32,7 +32,7 @@
     Separador
 
     #t_4_1.titulo-segundo.color-acento-contenido
-      .h4 4.1	Rendimientos de la poscosecha 
+      .h4 4.1  Tipos de acciones correctivas
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12.position-relative
@@ -58,7 +58,7 @@
             .tarjeta.color6.p-4
               .row.justify-content-center
                 .col-md-8
-                  h5 ¿Para qué las acciones correctivas?
+                  h5 Inmediatas
                   p Corrige un problema existente o una desviación de un límite crítico. Se detiene una violación de seguridad alimentaria que está sucediendo ahora.
                 .col-md-4
                   figure
@@ -103,7 +103,7 @@
     Separador
 
     #t_4_2.titulo-segundo.color-acento-contenido
-      .h4 4.2	Costos del rendimiento 
+      .h4 4.2	Implementación de acciones correctivas en la poscosecha
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-7
@@ -140,7 +140,7 @@
     Separador
 
     #t_4_3.titulo-segundo.color-acento-contenido
-      .h4 4.3	Mermas de la poscosecha
+      .h4 4.3	Análisis de acciones correctivas 
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-5
@@ -309,7 +309,7 @@
     Separador
 
     #t_4_4.titulo-segundo.color-acento-contenido
-      .h4 4.4	Mermas de la poscosecha
+      .h4 4.4	Generación de estrategias 
 
     .row 
       .col-md-7

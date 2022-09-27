@@ -179,7 +179,7 @@ export default {
         imagen: require('@/assets/curso/tema1/img6.jpg'),
       },
       {
-        titulo: 'PCuidados deficientes',
+        titulo: 'Cuidados deficientes',
         texto:
           'Posible exposición excesiva a la lluvia, la sequía o las temperaturas extremas.',
         imagen: require('@/assets/curso/tema1/img7.jpg'),
