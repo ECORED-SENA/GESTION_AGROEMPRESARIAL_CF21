@@ -8,18 +8,18 @@
       h1 Auditoría en el proceso de la poscosecha 
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-8
+      .col-md-8(data-aos="fade-right")
         p.mb-4 Las auditorías de procesos permiten conocer el comportamiento real de cada uno de los diferentes procesos durante la cosecha, poscosecha, racimos y distribuidores, para identificar dónde se necesita la mejora y evitar el riesgo de inconsistencias de calidad.
         .cajon.color-primario(style='background-color: #F8F9EA').p-4
           p.mb-0 La auditoría técnica de procesos consiste en identificar, cuantificar y valorar los costos y beneficios en un determinado periodo de tiempo, siendo la correcta identificación de beneficios la parte más importante, ya que a partir de esta se basa el análisis para tomar una adecuada decisión. De esta manera, establecer las actividades y puntos críticos que necesitan una intervención para mejorar los procesos.
-      .col-md-4
+      .col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img1.jpg', alt='')
-    p.mb-4 En el video que se muestra enseguida, obsérvelo y profundice en las generalidades y aspectos clave de la evaluación de parámetros técnicos; procure llevar registro de lo más destacado en su libreta personal de apuntes:
-    figure.mb-5
+    p.mb-4(data-aos="fade-right") En el video que se muestra enseguida, obsérvelo y profundice en las generalidades y aspectos clave de la evaluación de parámetros técnicos; procure llevar registro de lo más destacado en su libreta personal de apuntes:
+    figure.mb-5(data-aos="fade")
       .video
         iframe(width="942" height="530" src="https://www.youtube.com/embed/p2VTS3rXo7c" title="Costos del rendimiento en el proceso de poscosecha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="fade")
       .col-md-10
         .tarjeta.color3.p-4
           .row.align-items-center
@@ -30,10 +30,10 @@
               p.mb-0 Los parámetros técnicos contienen información que primero se define y después se clasifica en varias categorías de elementos para un proyecto. Los parámetros de cada sistema son específicos de ese sistema y no se pueden compartir con otro proyecto.
     Separador 
 
-    #t_2_1.titulo-segundo.color-acento-contenido
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h4 2.1	Requisitos 
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade")
       .col-md-12.col-12
         .bloque-texto-g1.color-amarillo.p-3.p-sm-4.p-md-5
           .bloque-texto-g1__img(
@@ -43,7 +43,7 @@
             p Las auditorías se basan en una serie de principios cuya intención es hacer que esta autoevaluación se convierta en una herramienta efectiva y confiable. Para ello, sus resultados deben respaldar las políticas de gestión de la calidad de la empresa, al tiempo que proporcionen información objetiva adecuada que permita obtener la mejora continua del sistema.
             span Para la implementación de una auditoría en la etapa de poscosecha los encargados de ejecutarla deben tener en cuenta los principios básicos que rigen una auditoría, estos son: 
 
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="fade")
       .col-md-8
         .row.justify-content-center   
           .col-lg-12
@@ -70,9 +70,9 @@
       .col-md-4
         figure
           img.p-2(src='@/assets/curso/tema2/img3.jpg' alt='')
-    p.mb-5 Teniendo en cuenta estos principios básicos se da paso al cumplimiento de los requisitos mínimos para la correcta implementación de una auditoría en la etapa de poscosecha. Conozca y analice en el esquema que se muestra enseguida tales requisitos:
+    p.mb-5(data-aos="fade-right") Teniendo en cuenta estos principios básicos se da paso al cumplimiento de los requisitos mínimos para la correcta implementación de una auditoría en la etapa de poscosecha. Conozca y analice en el esquema que se muestra enseguida tales requisitos:
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-md-9
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
@@ -104,10 +104,10 @@
             p Garantiza <b> <FONT COLOR="#A3314F"> que las personas sepan lo que tienen que hacer con vistas a la siguiente auditoría.  </FONT> </b> Igualmente, asegura la disposición de la información requerida antes del inicio de la nueva auditoría programada. Esto incluye completar y verificar resultados de las acciones correctivas y resolver hallazgos.
     Separador
 
-    #t_2_2.titulo-segundo.color-acento-contenido
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h4 2.2	Formatos 
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-lg-12.position-relative
         .crd.crd--avatarHorizontal4.py-2
           .row.align-items-center
@@ -121,7 +121,7 @@
                   p.mb-0 Para la elaboración de los formatos que hacen parte del Sistema Integrado de Gestión Institucional se deben considerar aspectos como:
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-6
+      .col-md-6(data-aos="fade-right")
         .tarjeta.color4.p-4
           .row 
             .col-md-2
@@ -130,7 +130,7 @@
             .col-md-10
               h5 Análisis del formato
               p Analizar si el formato es una herramienta conveniente para el área que lo solicita. 
-      .col-md-6
+      .col-md-6(data-aos="fade-left")
         .tarjeta.color4.p-4
           .row 
             .col-md-2
@@ -141,7 +141,7 @@
               p.mb-0 Definir los campos necesarios para que la información registrada proporcione evidencia de la realización de una actividad. 
    
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-7
+      .col-md-7(data-aos="fade-right")
         p.mb-2 Un formato, generalmente, contiene información precisa y concreta; no hay necesidad de plasmar párrafos muy extensos, solo la información necesaria para el análisis de los resultados. Las partes que conforman un formato son: 
         ul.lista-ul--color
           li 
@@ -155,11 +155,11 @@
             | Identificación. 
         .tarjeta.color5.p-3
           p.mb-0 Uno de los tipos de formatos, ampliamente utilizado en los procesos de producción, son las listas de chequeo, las cuales permiten la identificación de las actividades de cada proceso.
-      .col-md-5
+      .col-md-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img5.jpg' alt='AvatarTop')
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-lg-12.position-relative
         .crd.crd--avatarHorizontal5.py-4
           .row.align-items-center

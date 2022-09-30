@@ -289,31 +289,31 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Anllelo Andres Reina Montañez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Daniel Mutis',
         cargo: 'Validación Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Carlos Mauricio Gómez Delgado',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Fabian Leonardo Correa Díaz',
         cargo: 'Soporte front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Melina Tatiana Quintero Rodriguez',
         cargo: 'Validación de Maquetación',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },

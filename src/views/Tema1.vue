@@ -8,17 +8,17 @@
       h1 Registro de actividades en la poscosecha
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-8
+      .col-md-8(data-aos="fade-right")
         p.mb-4 La información de la finca es una herramienta muy poderosa para que el productor tome decisiones adecuadas con respecto a su negocio agrícola. En ello se basa la importancia del uso de registros en una finca. 
         .cajon.color-primario(style='background-color: #F8F9EA').p-4
           p.mb-0 El registro de las actividades deberá realizarse en formatos diseñados para tal fin, donde se permita plasmar la información necesaria de acuerdo con la actividad requerida, evitando casillas con información que no resulte útil para el análisis de la situación. 
-      .col-md-4
+      .col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/1.jpg', alt='')
 
-    p.mb-4 Con relación al registro de actividades en la granja es clave tener en cuenta los siguientes aspectos:
+    p.mb-4(data-aos="fade-right") Con relación al registro de actividades en la granja es clave tener en cuenta los siguientes aspectos:
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-md-4.col-12
         .tarjeta.color1.p-4
           figure.mb-0
@@ -38,25 +38,25 @@
           h5.text-center.mb-4 Acción a partir de la información
           p.text-center Permite conocer la situación actual, determinar volúmenes de producción, conocer limitantes y estimar el monto de las inversiones necesarias en la empresa.
 
-    p.mb-4 La elección de los tipos de registros a implementar está relacionada con el tipo de información que se necesita registrar, esto es:
+    p.mb-4(data-aos="fade-right") La elección de los tipos de registros a implementar está relacionada con el tipo de información que se necesita registrar, esto es:
 
-    SlyderB.mb-5(:datos="datosSlyder")
+    SlyderB.mb-5(:datos="datosSlyder")(data-aos="fade-left")
 
     Separador 
 
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 1.1	Registros de volúmenes de producción y calidad 
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-8
+      .col-md-8(data-aos="fade-right")
         p.mb-4 El personal que realiza la supervisión de las actividades productivas deberá ser muy cauteloso con la información registrada de las cantidades finales de producción, debido a que una información mal diligenciada puede ocasionar indicadores negativos, o por el contrario, unas evaluaciones muy rentables alejadas de la realidad de la actividad agrícola.
         .tarjeta.color2.p-4
           p Por tal razón, la capacitación de los operarios y/o supervisores en las etapas de producción debe ser constante, para que el registro de los formatos se realice de forma adecuada y brinde información real y concisa de las etapas de producción. 
-      .col-md-4
+      .col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img5.jpg', alt='')
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-lg-12.position-relative
         .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
@@ -72,25 +72,25 @@
                   figure
                     img(src='@/assets/curso/tema1/icon1.png' alt='AvatarTop')
 
-    p.mb-4 En el proceso de poscosecha como en las demás fases de la producción agrícola los registros cumplen una secuencia lógica para ser elaborados, cumpliendo estos criterios, aplicar los registros será una acción más efectiva.
-    p.mb-4 Identifique en la siguiente figura cómo se relacionan los registros en las actividades de poscosecha: 
+    p.mb-4(data-aos="fade-right") En el proceso de poscosecha como en las demás fases de la producción agrícola los registros cumplen una secuencia lógica para ser elaborados, cumpliendo estos criterios, aplicar los registros será una acción más efectiva.
+    p.mb-4(data-aos="fade-right") Identifique en la siguiente figura cómo se relacionan los registros en las actividades de poscosecha: 
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-8
+      .col-md-8(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           h5 Figura 1
           span Registros relacionados con actividades de poscosecha
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-12
+      .col-md-12(data-aos="fade")
         figure
           img(src='@/assets/curso/tema1/fig1.svg' alt='AvatarTop')
     Separador 
 
-    #t_1_2.titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 1.2	Registros de seguimiento de actividades 
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade")
       .col-md-12.col-12
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -99,18 +99,18 @@
           .bloque-texto-g__texto.p-5
             p El seguimiento consiste en el análisis y recopilación sistemático de información a medida que avanza un proyecto. Su objetivo es mejorar la eficacia y efectividad de un proyecto y su organización. Se basa en metas establecidas y actividades planificadas durante las distintas fases del trabajo de planificación.
 
-    p.mb-4 Sobre el registro de seguimiento de actividades tenga presente algunos aspectos clave como:
+    p.mb-4(data-aos="fade-right") Sobre el registro de seguimiento de actividades tenga presente algunos aspectos clave como:
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="fade")
       .col-md-10
         figure
           img(src='@/assets/curso/tema1/vec2.svg' alt='AvatarTop')
     Separador 
 
-    #t_1_3.titulo-segundo.color-acento-contenido
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 1.3	Registros de pérdida de la cosecha 
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-lg-12.position-relative
         .crd.crd--avatarHorizontal2.py-2
           .row.align-items-center
@@ -122,11 +122,11 @@
                 .col-md-12
                   p.mb-4 Indudablemente, esto se presenta en las empresas por muchos factores, la mayoría externos, como el clima u otras condiciones que alteran el normal desarrollo de la cosecha; sin embargo, es necesario llevar un control y registro de las pérdidas, teniendo en cuenta las causas, el tipo de producto, la cantidad y la época del año en que se registra, entre otros datos que se consideren importantes para el análisis de las causas y la formulación de acciones de mejora o de corrección a la que haya lugar.
 
-    p.mb-4 Las causas de la pérdida de estos alimentos, entre otras más son:
+    p.mb-4(data-aos="fade-right") Las causas de la pérdida de estos alimentos, entre otras más son:
 
-    SlyderB.mb-5(:datos="datosSlyder1")
+    SlyderB.mb-5(:datos="datosSlyder1")(data-aos="fade")
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-lg-12.position-relative
         .crd.crd--avatarHorizontal3.py-4
           .row.align-items-center
