@@ -12,7 +12,7 @@
       .col-md-7(data-aos="fade-right")
         .tarjeta.cajon1.p-2.mb-4
           p.mb-0 Un buen manejo del sistema de poscosecha incluye la realización de prácticas de acondicionamiento del producto, como secado, limpieza, selección, clasificación, almacenamiento y control de plagas, las cuales se efectúan a partir del momento de su recolección en el campo y hasta su comercialización.
-        .tarjeta.color5.p-4
+        .tarjeta.color5.p-4.mb-3
           p.mb-0 Las acciones correctivas son las acciones que deben tomarse si se excede un límite crítico en cualquier etapa de la producción de alimentos, por ejemplo, entrega, almacenamiento, preparación.
       .col-md-5(data-aos="fade-left")
         figure
@@ -23,23 +23,24 @@
         .crd.crd--avatarHorizontal3.py-4
           .row.align-items-center
             .col-auto
-              figure
+              figure.mb-2
                 img(src='@/assets/curso/tema4/1.png' alt='AvatarTop').img3
             .col
              .row.align-items-center 
                 .col-md-12
-                  p.mb-4 Son múltiples los eventos que pueden perjudicar la conservación del producto en buen estado, son factores determinantes en la disminución de los productos finales. Por ello, es clave apelar a la buena planeación del proceso de poscosecha y aplicar registros, seguimientos, formatos, estadísticas, control, entre otras.
+                  h5.mb-0 ¿Para qué las acciones correctivas?
+                  p.mb-4.p-3 El objetivo de la implementación de acciones correctivas es dar solución a una problemática presentada en la etapa de poscosecha en la cual se presentan no conformidades y/o riesgos de que se presenten.
     Separador
 
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h4 4.1  Tipos de acciones correctivas
+      .h2 4.1  Tipos de acciones correctivas
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-lg-12.position-relative
         .crd.crd--avatarHorizontal6.py-2
           .row.align-items-center
             .col-auto
-              figure
+              figure.mb-2
                 img(src='@/assets/curso/tema4/2.png' alt='AvatarTop')
             .col
              .row.align-items-center 
@@ -50,37 +51,37 @@
     .row.mb-4(data-aos="fade")
       .tarjeta.fondo.p-5
         .row.justify-content-center.mb-4
-          .col-md-4
+          .col-lg-4.col-md-8
             .tarjeta.colormarron.p-2
               h5.text-white.text-center.mb-0 ¿Para qué las acciones correctivas?
         .row.justify-content-center.mb-5
-          .col-md-6
-            .tarjeta.color6.p-4
+          .col-lg-6.col-md-12.col-12
+            .tarjeta.color6.p-4.mb-4
               .row.justify-content-center
                 .col-md-8
                   h5 Inmediatas
                   p Corrige un problema existente o una desviación de un límite crítico. Se detiene una violación de seguridad alimentaria que está sucediendo ahora.
-                .col-md-4
+                .col-lg-4.col-md-4.col-6
                   figure
                     img(src='@/assets/curso/tema4/3.png' alt='AvatarTop')
-          .col-md-6
+          .col-lg-6.col-md-12.col-12
             .tarjeta.color6.p-4
               .row.justify-content-center
                 .col-md-8
                   h5 Preventivas
                   p Evita que ocurra un problema potencial. Evita que ocurra una violación en el futuro.
-                .col-md-4
+                .col-lg-4.col-md-4.col-6
                   figure
                     img(src='@/assets/curso/tema4/4.png' alt='AvatarTop')
         .row.justify-content-center.align-items-center.mb-4
-          .col-md-10
-            .row.justify-content-center.align-items-center.mb-4
-              .col-md-6
-                figure
+          .col-md-12
+            .row.justify-content-center.align-items-end.mb-4
+              .col-lg-6.col-md-4.col-6
+                figure.mb-2
                   img(src='@/assets/curso/tema4/vec1.svg' alt='AvatarTop')
-              .col-md-6
+              .col-lg-6.col-md-12
                 .row.justify-content-center
-                  .col-lg-12.mb-4
+                  .col-lg-12.mb-2
                     .tarjeta-avatar-b.mb-5
                       .tarjeta-avatar-b__img
                         img(src='@/assets/curso/tema4/5.png' alt='AvatarTop')
@@ -91,7 +92,7 @@
                           p.mb-0 Transferencia de alimentos perecederos no refrigerados al almacenamiento en frío (5 °C o menos).
                           p.mb-0 Desechar alimentos que hayan estado en la zona de peligro de temperatura durante más de cuatro horas.
 
-                  .col-lg-12.mb-4
+                  .col-lg-12.mb-2
                     .tarjeta-avatar-b.mb-5
                       .tarjeta-avatar-b__img
                         img(src='@/assets/curso/tema4/6.png' alt='AvatarTop')
@@ -103,12 +104,12 @@
     Separador
 
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h4 4.2	Implementación de acciones correctivas en la poscosecha
+      .h2 4.2	Implementación de acciones correctivas en la poscosecha
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-7(data-aos="fade-right")
         p.mb-1 En la actualidad, muchas empresas no se encargan de realizar acciones correctivas eficientes, solo solucionan momentáneamente las no conformidades o incumplimientos ante cualquier expectativa, generando fallas en su sistema de gestión; esto se presenta por desconocimiento de la importancia y los múltiples beneficios que genera la implementación de las acciones correctivas.
-        .tarjeta.color5.p-4
+        .tarjeta.color5.p-4.mb-3
           p.mb-0 Omitir las acciones afecta de manera considerable la gestión que se lleve a cabo, considerándose un factor clave en las organizaciones encaminadas en el proceso de mejora continua, pues los estándares internacionales y los usuarios exigen de ellas siempre lo mejor.
       .col-md-5(data-aos="fade-left")
         figura
@@ -128,30 +129,31 @@
                 
     p.mb-5(data-aos="fade-right") Reconozca las etapas para la implementación de acciones correctivas en la empresa agrícola. Para ello, analice el esquema que se muestra enseguida:
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
-      .col-md-4
-        .tarjeta.colormarron.p-2
-          h5.text-white.text-center.mb-0 Etapas para la implementación de acciones correctivas
+    .bg_grad-03 
+      .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
+        .col-lg-4.col-md-10.col-12
+          .tarjeta.colormarron.p-2
+            h5.text-white.text-center.mb-0 Etapas para la implementación de acciones correctivas
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
-      .col-md-10
-        figure
-          img(src='@/assets/curso/tema4/vec2.svg' alt='AvatarTop')
-    Separador
+      .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
+        .col-md-10
+          figure
+            img(src='@/assets/curso/tema4/vec2.svg' alt='AvatarTop')
+      Separador
 
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h4 4.3	Análisis de acciones correctivas 
+      .h2 4.3	Análisis de acciones correctivas 
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-5(data-aos="fade-right")
-        figure
+        figure.mb-3
           img(src='@/assets/curso/tema4/img2.jpg' alt='AvatarTop')
       .col-md-7(data-aos="fade-left")
         p.mb-4 Con la acción correctiva se busca evitar que vuelva a suceder alguna eventualidad que afecte negativamente el proceso de la poscosecha o cualquier otra fase de la producción. Esto ya incluye aplicar un proceso sistemático a fin de encontrar la causa raíz, como es mediante el procedimiento de los siete pasos de acción correctiva. De este modo se estará trabajando por la mejora continua del sistema productivo.
         p.mb-4 Para la realización del análisis de las acciones correctivas primero se debe evaluar cada paso previo a la formulación de la acción; de esta manera se determina si los procesos de seguimiento y monitoreo de cada proceso se realizan teniendo en cuenta los parámetros técnicos relacionados con la actividad.
 
     .row.mb-4(data-aos="fade-right")
-      .col-md-4.p-2
+      .col-lg-4.col-md-8.col-10.p-2
         .tarjeta.colormarron.p-2
           h5.text-white.text-center.mb-0 Análisis de puntos críticos de la poscosecha.
 
@@ -159,10 +161,10 @@
       .col-md-12
         .tarjeta.color7.p-5
           .row.justify-content-center.align-items-center
-            .col-md-5
+            .col-lg-5.col-md-6.col-12
               p.mb-4 Para poder determinar los puntos críticos de control se precisa un modo de proceder lógico y sistematizado, como el uso de un árbol de decisiones, que es una secuencia de preguntas hechas para determinar si un punto de control es o no lo es.
-              p.mb-0 A partir de la identificación de los puntos críticos se establecen las estrategias para su control y continuo monitoreo. 
-            .col-md-7
+              p.mb-2 A partir de la identificación de los puntos críticos se establecen las estrategias para su control y continuo monitoreo. 
+            .col-lg-7.col-md-6.col-12
               figure
                 img(src='@/assets/curso/tema4/8.png' alt='AvatarTop')
 
@@ -204,7 +206,7 @@
             p Para favorecer el seguimiento y el control de las acciones y la trazabilidad en los procesos.
 
     .row.mb-4(data-aos="fade-right")
-      .col-md-5.p-2
+      .col-lg-5.col-md-10.col-12.p-2
         .tarjeta.colormarron.p-2
           h5.text-white.text-center.mb-0 Análisis para la formulación de planes preventivos y correctivos. 
 
@@ -220,7 +222,7 @@
               figure
                 img(src='@/assets/curso/tema4/9.png', alt='Texto que describa la imagen')
     
-    .row.justify-content-center.align-items-center.mb-43(data-aos="fade")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-lg-10.position-relative
         .crd.crd--avatarHorizontal5.py-4
           .row.align-items-center
@@ -233,12 +235,12 @@
                   p.mb-4 Es necesario realizar un salto hacia una actitud preventiva que exija un cambio de hábitos. Para llevar adelante este cambio es requisito empezar, de forma organizada, con la elaboración de procedimientos y planes de mantenimiento que detallen las actividades o tareas, responsables de ejecución de cada una de ellas, los materiales o repuestos a utilizar, pautas de seguridad, entre otras características. 
     p.mb-4(data-aos="fade-right") En el siguiente video conozca los pasos para lograr una formulación acertada de un plan de mantenimiento preventivo en la granja. Preste atención a cada definición y a sus particularidades:
 
-    figure.mb-53(data-aos="fade")
+    figure.mb-4(data-aos="fade")
       .video
         iframe(width="942" height="530" src="https://www.youtube.com/embed/Br6A94g15TA" title="Formulación de planes de mantenimiento preventivo y correctivo en la granja" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-4(data-aos="fade-right")
-      .col-md-3.p-2
+      .col-lg-3.col-md-6.col-8.p-2
         .tarjeta.colormarron.p-2
           h5.text-white.text-center.mb-0 Análisis de oportunidades de mejora
 
@@ -309,7 +311,7 @@
     Separador
 
     #t_4_4.titulo-segundo.color-acento-contenido
-      .h4 4.4	Generación de estrategias 
+      .h2 4.4	Generación de estrategias 
 
     .row.mb-4
       .col-md-7(data-aos="fade-right")

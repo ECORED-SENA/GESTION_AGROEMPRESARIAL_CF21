@@ -26,16 +26,15 @@
     background-size: auto
     background-position: 70% 80%, 100% 80%
 
-
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
-
 
   &__info
     display: flex
     flex-direction: column
     justify-content: center
+    margin-bottom: 50px
 
   &__programa
     display: flex
@@ -43,7 +42,8 @@
     margin-bottom: 20px
 
   &__componente
-    margin-bottom: 50px
+    margin-top: 50px
+    margin-bottom: 20px
     h1
       line-height: 1.1em
 
@@ -51,7 +51,7 @@
         font-size: 2em
 
   &__descripcion
-    margin-bottom: 90px
+    margin-bottom: 20px
 
   &__row
     @if $banner-principal-img-x == 'centro'
@@ -85,9 +85,26 @@
 
 ////Tema 1
 
+.bg_grad-01
+  position: relative
+  .row, Separador, #t_1_2.titulo-segundo, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: 10em
+    left: 0px
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/temas/fondo1.jpg")
+    background-repeat: no-repeat
+
 .color1
   background-color: #EEF0CD
-  height: 540px
+  height: 520px
+  align-content: center
+  justify-content: center
   @media (max-width: 1400px)
     height: auto
 
@@ -111,9 +128,22 @@
     height: 100%
     background-color: #F8F9EA
     border-radius: 0px
-
   @media (max-width: 1000px)
+    position: relative
     padding-right: 2rem
+    & > *
+      position: relative
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: 0
+      right: +2%
+      width: calc( 100% + 5px)
+      height: 100%
+      background-color: #F8F9EA
+      border-radius: 0px
 
 .img1
   width: 240px
@@ -129,6 +159,8 @@
   position: relative
   width: 70%
   background-color: rgba(255, 255, 255, 0.95)
+  @media (max-width: 999px)
+    width: 100%
 
 .bloque-texto-g__img 
   width: 40%
@@ -138,7 +170,7 @@
   bottom: 0
   background-position: center
   background-size: cover
-  @media (max-width: 1000px)
+  @media (max-width: 999px)
     width: 100%
     position: absolute
     top: 0px
@@ -163,6 +195,22 @@
     height: 100%
     background-color: #F1E0E5
     border-radius: 0px
+  @media (max-width: 999px)
+    position: relative
+    padding-right: 0rem
+    & > *
+      position: relative
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: 0px
+      right: -50px
+      width: calc( 100% + 6em )
+      height: 100%
+      background-color: #F1E0E5
+      border-radius: 0px
 
 .crd--avatarHorizontal3
   position: relative
@@ -180,13 +228,63 @@
     height: 163px
     background-color: #F8F9EA
     border-radius: 0px
-
+  @media (max-width: 999px)
+    position: relative
+    padding-right: 0rem
+    & > *
+      position: relative
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: 12%
+      right: -5%
+      width: calc( 100% + 2em)
+      height: 75%
+      background-color: #F8F9EA
+      border-radius: 0px
+  @media (max-width: 770px)
+    position: relative
+    padding-right: 0rem
+    & > *
+      position: relative
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: 0%
+      right: 0%
+      width: calc( 100% + 2em)
+      height: 100%
+      background-color: #F8F9EA
+      border-radius: 0px
 .img3
   width: 295px
   @media (max-width: 1000px)
     width: auto
 
 ///Tema2
+
+.slyder-b .slyder-b__slyde .row  
+  @media (min-width:$bp-min-md) and (max-width:$bp-max-lg)
+    width: 97% !important
+  
+.bg_grad-02
+  position: relative
+  .row, Separador, #t_1_2.titulo-segundo, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: 1em
+    left: 0px
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/temas/fondo2.jpg")
+    background-repeat: no-repeat
 
 .color3
   background-color: #F1E0E5
@@ -208,12 +306,25 @@
   bottom: 0
   background-position: center
   background-size: cover
+  @media (max-width: 1000px)
+    width: 100%
+    position: absolute
+    top: 0px
+    right: 0%
+    bottom: 50%
+    background-position: center
+    background-size: cover
 
 .bloque-texto-g1__texto 
   position: relative
-  width: 60%
+  width: 70%
   background-color: rgba(255, 255, 255, 0.95)
-  right: -35%
+  right: -30%
+  @media (max-width: 1000px)
+    position: relative
+    width: 80%
+    background-color: rgba(255, 255, 255, 0.95)
+    right: -10%
 
 .linea-tiempo-d.color-linea .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
   background-color: #EEF0CD
@@ -283,90 +394,42 @@
     &::before  
       position: absolute 
       content: ''
-      top: 0%
-      right: 0
-      width: 673px
-      height: 260px
-      background-color: #EEF0CD
-      border-radius: 0px
-  @media (max-width: 999px)
-    position: relative
-    padding-right: 4rem
-    & > *
-      position: relative
-    p 
-      margin-bottom: 0
-    &::before  
-      position: absolute 
-      content: ''
-      top: 0%
-      right: 0
-      width: 300px
-      height: 770px
-      background-color: #EEF0CD
-      border-radius: 0px
-  @media (max-width: 760px)
-    position: relative
-    padding-right: 4rem
-    & > *
-      position: relative
-    p 
-      margin-bottom: 0
-    &::before  
-      position: absolute 
-      content: ''
-      top: 40%
-      right: 0
-      width: 550px
-      height: 300px
-      background-color: #EEF0CD
-      border-radius: 0px
-  @media (max-width: 500px)
-    position: relative
-    padding-right: 4rem
-    & > *
-      position: relative
-    p 
-      margin-bottom: 0
-    &::before  
-      position: absolute 
-      content: ''
-      top: 35%
-      right: 0
-      width: 550px
-      height: 350px
-      background-color: #EEF0CD
-      border-radius: 0px
-  @media (max-width: 420px)
-    position: relative
-    padding-right: 4rem
-    & > *
-      position: relative
-    p 
-      margin-bottom: 0
-    &::before  
-      position: absolute 
-      content: ''
-      top: 25%
-      right: 0
-      width: 450px
-      height: 450px
-      background-color: #EEF0CD
-      border-radius: 0px
-  @media (max-width: 350px)
-    position: relative
-    padding-right: 4rem
-    & > *
-      position: relative
-    p 
-      margin-bottom: 0
-    &::before  
-      position: absolute 
-      content: ''
       top: 15%
-      right: 0
-      width: 450px
-      height: 550px
+      right: 0px
+      width: 80%
+      height: 70%
+      background-color: #EEF0CD
+      border-radius: 0px
+  @media (max-width: 990px)
+    position: relative
+    padding-right: 4rem
+    & > *
+      position: relative
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: -3%
+      right: 0px
+      width: 50%
+      height: 105%
+      background-color: #EEF0CD
+      border-radius: 0px
+  @media (max-width: 770px)
+    position: relative
+    padding-right: 4rem
+    & > *
+      position: relative
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: 20%
+      right: 0px
+      width: 105%
+      height: 82%
       background-color: #EEF0CD
       border-radius: 0px
     
@@ -388,13 +451,60 @@
   &::before  
     position: absolute 
     content: ''
-    top: 25%
+    top: 22%
     right: 0
     width: calc( 100% - 120px)
-    height: 163px
+    height: 55%
     background-color: #F1E0E5
     border-radius: 0px
-
+  @media (max-width: 1200px)
+    position: relative
+    padding-right: 4rem
+    & > *
+      position: relative
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: 18%
+      right: 0
+      width: calc( 100% - 120px)
+      height: 60%
+      background-color: #F1E0E5
+      border-radius: 0px
+  @media (max-width: 990px)
+    position: relative
+    padding-right: 4rem
+    & > *
+      position: relative
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: 0%
+      right: 0
+      width: calc( 100% - 120px)
+      height: 100%
+      background-color: #F1E0E5
+      border-radius: 0px
+  @media (max-width: 770px)
+    position: relative
+    padding-right: 4rem
+    & > *
+      position: relative
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: 27%
+      right: -1%
+      width: calc( 100% + 20px)
+      height: 72%
+      background-color: #F1E0E5
+      border-radius: 0px
 .img4
   width: 78px
   @media (max-width: 1000px)
@@ -418,6 +528,22 @@
     height: 90%
     background-color: #F1E0E5
     border-radius: 0px
+  @media (max-width: 1200px)
+    position: relative
+    padding-right: 4rem
+    & > *
+      position: relative
+    p 
+      margin-bottom: 0
+    &::before  
+      position: absolute 
+      content: ''
+      top: 40px
+      right: +30px
+      width: calc( 100% + 0px)
+      height: 90%
+      background-color: #F1E0E5
+      border-radius: 0px
 
 .color6
   background-color: #F1E0E5  
@@ -522,6 +648,24 @@
 
 ///tema4
 
+.img-infografica.color-secundario .img-infografica__item__dot:before, .img-infografica.color-secundario .img-infografica__item__dot:after, .img-infografica.color-secundario .img-infografica-b__item__dot:before, .img-infografica.color-secundario .img-infografica-b__item__dot:after, .img-infografica-b.color-secundario .img-infografica__item__dot:before, .img-infografica-b.color-secundario .img-infografica__item__dot:after, .img-infografica-b.color-secundario .img-infografica-b__item__dot:before, .img-infografica-b.color-secundario .img-infografica-b__item__dot:after
+    background-color: #ffb70000
+
+.bg_grad-03
+  position: relative
+  .row, Separador, #t_1_2.titulo-segundo, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: 0em
+    left: 0px
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/temas/fondo3.jpg")
+    background-repeat: no-repeat
+
 .cajon1
   content: ''
   position: relative
@@ -533,14 +677,19 @@
     position: relative
 
 .fondo
-  content: ''
   position: relative
-  background-image: url("../assets/curso/tema4/fondo.svg")
-  border-radius: 0px
-  @media (max-width: 1200px)
-    background-color: #F8F9EA
-    background-image: none
+  .row, Separador, #t_1_2.titulo-segundo, 
     position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -2.5rem 
+    top: 10em
+    left: 0px
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema4/fondo.svg")
+    background-repeat: no-repeat
 
 .colormarron
   background-color: #621D2F

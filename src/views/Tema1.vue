@@ -8,7 +8,7 @@
       h1 Registro de actividades en la poscosecha
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-8(data-aos="fade-right")
+      .col-md-8(data-aos="fade-right").mb-4
         p.mb-4 La información de la finca es una herramienta muy poderosa para que el productor tome decisiones adecuadas con respecto a su negocio agrícola. En ello se basa la importancia del uso de registros en una finca. 
         .cajon.color-primario(style='background-color: #F8F9EA').p-4
           p.mb-0 El registro de las actividades deberá realizarse en formatos diseñados para tal fin, donde se permita plasmar la información necesaria de acuerdo con la actividad requerida, evitando casillas con información que no resulte útil para el análisis de la situación. 
@@ -19,23 +19,29 @@
     p.mb-4(data-aos="fade-right") Con relación al registro de actividades en la granja es clave tener en cuenta los siguientes aspectos:
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
-      .col-md-4.col-12
-        .tarjeta.color1.p-4
-          figure.mb-0
-            img(src='@/assets/curso/tema1/1.png', alt='')
-          h5.text-center.mb-4 El poder de la información
+      .col-md-12.col-lg-4
+        .tarjeta.color1.p-4.mb-4
+          .row.justify-content-center
+            .col-lg-11.col-md-7
+              figure.mb-2
+                img(src='@/assets/curso/tema1/1.png', alt='')
+          h4.text-center.mb-4 El poder de la información
           p.text-center La información de la finca es una herramienta muy poderosa para que el productor tome decisiones adecuadas con respecto a su negocio agrícola. Por eso, la importancia del uso de registros en una finca.
-      .col-md-4.col-12
-        .tarjeta.color1.p-4
-          figure.mb-0
-            img(src='@/assets/curso/tema1/2.png', alt='')
-          h5.text-center.mb-4 Construcción de la información
+      .col-md-12.col-lg-4
+        .tarjeta.color1.p-4.mb-4
+          .row.justify-content-center
+            .col-lg-11.col-md-7
+              figure.mb-2
+                img(src='@/assets/curso/tema1/2.png', alt='')
+          h4.text-center.mb-4 Construcción de la información
           p.text-center La información se construye a través del procesamiento y análisis de los registros. 
-      .col-md-4.col-12
-        .tarjeta.color1.p-4
-          figure.mb-0
-            img(src='@/assets/curso/tema1/3.png', alt='')
-          h5.text-center.mb-4 Acción a partir de la información
+      .col-md-12.col-lg-4
+        .tarjeta.color1.p-4.mb-4
+          .row.justify-content-center
+            .col-lg-11.col-md-7
+              figure.mb-2
+                img(src='@/assets/curso/tema1/3.png', alt='')
+          h4.text-center.mb-4 Acción a partir de la información
           p.text-center Permite conocer la situación actual, determinar volúmenes de producción, conocer limitantes y estimar el monto de las inversiones necesarias en la empresa.
 
     p.mb-4(data-aos="fade-right") La elección de los tipos de registros a implementar está relacionada con el tipo de información que se necesita registrar, esto es:
@@ -50,7 +56,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-md-8(data-aos="fade-right")
         p.mb-4 El personal que realiza la supervisión de las actividades productivas deberá ser muy cauteloso con la información registrada de las cantidades finales de producción, debido a que una información mal diligenciada puede ocasionar indicadores negativos, o por el contrario, unas evaluaciones muy rentables alejadas de la realidad de la actividad agrícola.
-        .tarjeta.color2.p-4
+        .tarjeta.color2.p-4.mb-2
           p Por tal razón, la capacitación de los operarios y/o supervisores en las etapas de producción debe ser constante, para que el registro de los formatos se realice de forma adecuada y brinde información real y concisa de las etapas de producción. 
       .col-md-4(data-aos="fade-left")
         figure
@@ -64,40 +70,41 @@
               figure
                 img(src='@/assets/curso/tema1/4.png' alt='AvatarTop').img1
             .col
-             .row.align-items-center 
+             .row.justify-content-center.align-items-center 
                 .col-md-10
                   p.mb-4 Existen otros registros que son de diligenciamiento diario o semanal de acuerdo al tipo de producción. En ellos se escriben los datos de uso de mano de obra, uso de insumos, costos, eventos del cultivo, producción, pérdidas, eventos climáticos, etc.
                   p.mb-4 Los registros deben ser sencillos, completos, mantenerse al día, útiles y confiables. Generalmente se escriben a mano y luego se transfiere la información a software especializados a producciones agrícolas.
-                .col-md-2
+                .col-lg-2.col-md-7.col-5
                   figure
                     img(src='@/assets/curso/tema1/icon1.png' alt='AvatarTop')
 
     p.mb-4(data-aos="fade-right") En el proceso de poscosecha como en las demás fases de la producción agrícola los registros cumplen una secuencia lógica para ser elaborados, cumpliendo estos criterios, aplicar los registros será una acción más efectiva.
     p.mb-4(data-aos="fade-right") Identifique en la siguiente figura cómo se relacionan los registros en las actividades de poscosecha: 
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-md-8(data-aos="fade-right")
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 1
-          span Registros relacionados con actividades de poscosecha
+    .bg_grad-01
+      .row.justify-content-center.align-items-center.mb-4
+        .col-md-8(data-aos="fade-right")
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 1
+            span Registros relacionados con actividades de poscosecha
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-md-12(data-aos="fade")
-        figure
-          img(src='@/assets/curso/tema1/fig1.svg' alt='AvatarTop')
-    Separador 
+      .row.justify-content-center.align-items-center.mb-4
+        .col-md-12(data-aos="fade")
+          figure
+            img(src='@/assets/curso/tema1/fig1.svg' alt='AvatarTop')
+      Separador 
 
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h2 1.2	Registros de seguimiento de actividades 
+      #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        .h2 1.2	Registros de seguimiento de actividades 
 
-    .row.mb-5(data-aos="fade")
-      .col-md-12.col-12
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema1/vec1.svg')})`}"
-          )
-          .bloque-texto-g__texto.p-5
-            p El seguimiento consiste en el análisis y recopilación sistemático de información a medida que avanza un proyecto. Su objetivo es mejorar la eficacia y efectividad de un proyecto y su organización. Se basa en metas establecidas y actividades planificadas durante las distintas fases del trabajo de planificación.
+      .row.mb-5(data-aos="fade")
+        .col-md-12.col-12
+          .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/tema1/vec1.svg')})`}"
+            )
+            .bloque-texto-g__texto.p-5
+              p El seguimiento consiste en el análisis y recopilación sistemático de información a medida que avanza un proyecto. Su objetivo es mejorar la eficacia y efectividad de un proyecto y su organización. Se basa en metas establecidas y actividades planificadas durante las distintas fases del trabajo de planificación.
 
     p.mb-4(data-aos="fade-right") Sobre el registro de seguimiento de actividades tenga presente algunos aspectos clave como:
 

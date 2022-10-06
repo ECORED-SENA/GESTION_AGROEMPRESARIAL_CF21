@@ -31,7 +31,7 @@
           li 
             i.fas.fa-angle-right
             | Sin descuidar que durante su travesía un alimento se expone a distintos riesgos.
-        .tarjeta.color5.p-3
+        .tarjeta.color5.p-3.mb-4
           p.mb-0 Garantizar los principios del control de calidad de alimentos es una prioridad universal, que no resulta ajena a ninguna sociedad, nación, ni individuo y beneficia a cada miembro de la sociedad, por lo que conocer más a fondo los procesos de la producción siempre resultará útil.
       .col-md-5(data-aos="fade-left")
         figure
@@ -39,7 +39,7 @@
     Separador
 
     #t_3_1.titulo-segundo.color-acento-contenido
-      .h4 3.1	Rendimientos de la poscosecha 
+      .h2 3.1	Rendimientos de la poscosecha 
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-lg-12.position-relative
@@ -51,12 +51,12 @@
             .col
              .row.align-items-center 
                 .col-md-12
-                  p.mb-4 Gestionar una explotación y generar cálculos de rentabilidad agrícola no es fácil en los tiempos que corren. Son muchos los factores a tener en cuenta en el día a día y no siempre es fácil contemplarlos, identificarlos o atenderlos: la variabilidad de los precios de las cosechas, el costo de los abonos y fitosanitarios, la elevada inversión en maquinaria y demás, hace que no sea una tarea simple.
+                  p.mb-4.p-2 Gestionar una explotación y generar cálculos de rentabilidad agrícola no es fácil en los tiempos que corren. Son muchos los factores a tener en cuenta en el día a día y no siempre es fácil contemplarlos, identificarlos o atenderlos: la variabilidad de los precios de las cosechas, el costo de los abonos y fitosanitarios, la elevada inversión en maquinaria y demás, hace que no sea una tarea simple.
     p.mb-4(data-aos="fade-right") En lo relacionado con los rendimientos de la poscosecha tenga en cuenta aspectos como los que aquí se mencionan:
 
     .row.align-items-center.mb-5
       .col-md-7(data-aos="fade-right")
-        .row.justify-content-center   
+        .row.justify-content-center.mb-3 
           .col-lg-12
             LineaTiempoD.color-linea
               .row.align-items-center(numero="1" titulo="Valores planificados") 
@@ -80,7 +80,7 @@
     Separador
 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h4 3.2	Costos del rendimiento 
+      .h2 3.2	Costos del rendimiento 
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-lg-12.position-relative
@@ -100,7 +100,7 @@
     Separador
 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      .h4 3.3	Mermas de la poscosecha
+      .h2 3.3	Mermas de la poscosecha
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-5(data-aos="fade-right")
@@ -157,12 +157,12 @@
         .crd.crd--avatarHorizontal3.py-4
           .row.align-items-center
             .col-auto
-              figure
+              figure.mb-2
                 img(src='@/assets/curso/tema1/4.png' alt='AvatarTop').img3
             .col
              .row.align-items-center 
                 .col-md-12
-                  p.mb-4 Son múltiples los eventos que pueden perjudicar la conservación del producto en buen estado, son factores determinantes en la disminución de los productos finales. Por ello, es clave apelar a la buena planeación del proceso de poscosecha y aplicar registros, seguimientos, formatos, estadísticas, control, entre otras.
+                  p.mb-4.p-2 Son múltiples los eventos que pueden perjudicar la conservación del producto en buen estado, son factores determinantes en la disminución de los productos finales. Por ello, es clave apelar a la buena planeación del proceso de poscosecha y aplicar registros, seguimientos, formatos, estadísticas, control, entre otras.
 </template>
 
 <script>
