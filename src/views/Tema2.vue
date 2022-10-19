@@ -74,7 +74,7 @@
 
     .bg_grad-02
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
-        .col-md-9
+        .col-md-8
           ImagenInfografica.color-secundario.mb-5
             template(v-slot:imagen)
               figure
@@ -125,7 +125,7 @@
       .col-lg-6.col-md-12(data-aos="fade-right")
         .tarjeta.color4.p-4.mb-3
           .row.justify-content-center
-            .col-lg-2.col-md-4.col-6
+            .col-lg-2.col-md-3.col-5
               figure
                 img(src='@/assets/curso/tema2/2.png' alt='AvatarTop')
             .col-md-10
@@ -134,7 +134,7 @@
       .col-lg-6.col-md-12(data-aos="fade-left")
         .tarjeta.color4.p-4.mb-2
           .row.justify-content-center
-            .col-lg-2.col-md-4.col-6
+            .col-lg-2.col-md-3.col-5
               figure
                 img(src='@/assets/curso/tema2/3.png' alt='AvatarTop')
             .col-md-10
@@ -165,7 +165,7 @@
         .crd.crd--avatarHorizontal5.py-4
           .row.align-items-center
             .col-auto
-              figure
+              figure.mb-2
                 img(src='@/assets/curso/tema1/4.png' alt='AvatarTop').img3
             .col
              .row.justify-content-center.align-items-center

@@ -65,16 +65,16 @@
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .col-lg-12.position-relative
         .crd.crd--avatarHorizontal.py-4
-          .row.align-items-center
-            .col-auto
-              figure
+          .row.align-items-center.justify-content-center
+            .col-lg-3.col-md-5.col-7
+              figure.mb-2
                 img(src='@/assets/curso/tema1/4.png' alt='AvatarTop').img1
-            .col
-             .row.justify-content-center.align-items-center 
-                .col-md-10
-                  p.mb-4 Existen otros registros que son de diligenciamiento diario o semanal de acuerdo al tipo de producción. En ellos se escriben los datos de uso de mano de obra, uso de insumos, costos, eventos del cultivo, producción, pérdidas, eventos climáticos, etc.
-                  p.mb-4 Los registros deben ser sencillos, completos, mantenerse al día, útiles y confiables. Generalmente se escriben a mano y luego se transfiere la información a software especializados a producciones agrícolas.
-                .col-lg-2.col-md-7.col-5
+            .col-lg-9.col-md-8
+              .row.justify-content-center.align-items-center 
+                .col-lg-10.col-md-8.col-12
+                  p.mb-4.text-center Existen otros registros que son de diligenciamiento diario o semanal de acuerdo al tipo de producción. En ellos se escriben los datos de uso de mano de obra, uso de insumos, costos, eventos del cultivo, producción, pérdidas, eventos climáticos, etc.
+                  p.mb-4.text-center Los registros deben ser sencillos, completos, mantenerse al día, útiles y confiables. Generalmente se escriben a mano y luego se transfiere la información a software especializados a producciones agrícolas.
+                .col-lg-2.col-md-4.col-5
                   figure
                     img(src='@/assets/curso/tema1/icon1.png' alt='AvatarTop')
 
