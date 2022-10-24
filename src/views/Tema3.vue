@@ -104,7 +104,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-5(data-aos="fade-right")
-        figure
+        figure.mb-2
           img(src='@/assets/curso/tema3/img3.jpg' alt='AvatarTop')
       .col-md-7(data-aos="fade-left")
         p.mb-4 Las cosechas realizadas, por ejemplo, en horas de alta temperatura y fuerte radiación solar o en momentos en que las hortalizas de hojas están mojadas por el rocío de la noche, dan lugar a un producto con niveles importantes de deshidratación o suciedad por la adherencia de partículas de tierra.

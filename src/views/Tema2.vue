@@ -112,11 +112,11 @@
       .col-lg-12.position-relative
         .crd.crd--avatarHorizontal4.py-2
           .row.align-items-center
-            .col-auto
+            .col-lg-4.col-md-12.col-12
               figure.mb-4
                 img(src='@/assets/curso/tema2/img4.jpg' alt='AvatarTop')
-            .col
-             .row.align-items-center 
+            .col-lg-8.col-md-12.col-12
+              .row.align-items-center 
                 .col-md-12
                   p.mb-4 Un formato es un documento empleado para el registro de información necesaria para un proceso o actividad.
                   p.mb-0 Para la elaboración de los formatos que hacen parte del Sistema Integrado de Gestión Institucional se deben considerar aspectos como:
@@ -164,11 +164,11 @@
       .col-lg-12.position-relative
         .crd.crd--avatarHorizontal5.py-4
           .row.align-items-center
-            .col-auto
+            .col-lg-3.col-md-4
               figure.mb-2
                 img(src='@/assets/curso/tema1/4.png' alt='AvatarTop').img3
-            .col
-             .row.justify-content-center.align-items-center
+            .col-lg-9.col-md-8
+              .row.justify-content-center.align-items-center
                 .col-md-10
                   p.mb-4 El uso de herramientas no adecuadas, la recolección incorrecta, la manipulación de los productos, el tiempo de almacenamiento, empaquetado y el transporte a sitio final también son situaciones que generan pérdidas, por tal razón se deben extremar las medidas en la poscosecha ya que no solo es en la etapa de crecimiento del producto sino en todo el ciclo productivo.
                 .col-lg-2.col-md-5.col-6

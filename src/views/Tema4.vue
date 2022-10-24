@@ -226,11 +226,11 @@
       .col-lg-10.position-relative
         .crd.crd--avatarHorizontal5.py-4
           .row.align-items-center
-            .col-auto
-              figure
+            .col-lg-4.col-md-6.col-12
+              figure.mb-2
                 img(src='@/assets/curso/tema1/4.png' alt='AvatarTop').img3
-            .col
-             .row.align-items-center 
+            .col-lg-8.col-md-6.col-12
+              .row.align-items-center 
                 .col-md-12
                   p.mb-4 Es necesario realizar un salto hacia una actitud preventiva que exija un cambio de hábitos. Para llevar adelante este cambio es requisito empezar, de forma organizada, con la elaboración de procedimientos y planes de mantenimiento que detallen las actividades o tareas, responsables de ejecución de cada una de ellas, los materiales o repuestos a utilizar, pautas de seguridad, entre otras características. 
     p.mb-4(data-aos="fade-right") En el siguiente video conozca los pasos para lograr una formulación acertada de un plan de mantenimiento preventivo en la granja. Preste atención a cada definición y a sus particularidades:
@@ -255,7 +255,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-5(data-aos="fade-right")
-        figure
+        figure.mb-4
           img(src='@/assets/curso/tema4/img4.jpg' alt='AvatarTop')
       .col-md-7(data-aos="fade-left")
         p.mb-0 En relación con los proyectos de mejora es importante tener presente los siguientes aspectos clave:
@@ -326,11 +326,11 @@
       .col-lg-10.position-relative
         .crd.crd--avatarHorizontal5.py-4
           .row.align-items-center
-            .col-auto
-              figure
+            .col-lg-4.col-md-6.col-12
+              figure.mb-2
                 img(src='@/assets/curso/tema1/4.png' alt='AvatarTop').img3
-            .col
-             .row.align-items-center 
+            .col-lg-8.col-md-6.col-12
+              .row.align-items-center 
                 .col-md-12
                   p.mb-4 Existen varias metodologías para la generación de estrategias para mejora continua, la más común es el uso de la matriz DOFA, ya que es fácil de elaborar y contiene la información concreta para el establecimiento de las acciones a desarrollar.
    
