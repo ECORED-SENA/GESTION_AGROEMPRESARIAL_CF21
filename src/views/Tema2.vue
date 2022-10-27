@@ -18,7 +18,7 @@
     p.mb-4(data-aos="fade-right") En el video que se muestra enseguida, obsérvelo y profundice en las generalidades y aspectos clave de la evaluación de parámetros técnicos; procure llevar registro de lo más destacado en su libreta personal de apuntes:
     figure.mb-5(data-aos="fade")
       .video
-        iframe(width="942" height="530" src="https://www.youtube.com/embed/p2VTS3rXo7c" title="Costos del rendimiento en el proceso de poscosecha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="942" height="530" src="https://www.youtube.com/embed/08mAvh2qGY4" title="Evaluación de parámetros técnicos en el monitoreo del proceso de poscosecha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center.mb-4(data-aos="fade")
       .col-md-10
         .tarjeta.color3.p-4
@@ -170,7 +170,7 @@
             .col-lg-9.col-md-8
               .row.justify-content-center.align-items-center
                 .col-md-10
-                  p.mb-4 El uso de herramientas no adecuadas, la recolección incorrecta, la manipulación de los productos, el tiempo de almacenamiento, empaquetado y el transporte a sitio final también son situaciones que generan pérdidas, por tal razón se deben extremar las medidas en la poscosecha ya que no solo es en la etapa de crecimiento del producto sino en todo el ciclo productivo.
+                  p.mb-4 Las elaboraciones de un formato donde se plasmen las acciones más relevantes, apoyarán la identificación de posibles no conformidades en los procesos para que en la evaluación de los parámetros se formulen las acciones correctivas necesarias para corregir el problema.
                 .col-lg-2.col-md-5.col-6
                   figure
                     img(src='@/assets/curso/tema2/4.png' alt='AvatarTop').img4

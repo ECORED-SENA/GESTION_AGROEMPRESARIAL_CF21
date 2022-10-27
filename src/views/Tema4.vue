@@ -53,7 +53,7 @@
         .row.justify-content-center.mb-4
           .col-lg-4.col-md-8
             .tarjeta.colormarron.p-2
-              h5.text-white.text-center.mb-0 ¿Para qué las acciones correctivas?
+              h5.text-white.text-center.mb-0 Tipos de acciones correctivas
         .row.justify-content-center.mb-5
           .col-lg-6.col-md-12.col-12
             .tarjeta.color6.p-4.mb-4
@@ -87,9 +87,9 @@
                         img(src='@/assets/curso/tema4/5.png' alt='AvatarTop')
                       .tarjeta.tarjetamarron
                         .p-4
-                          p.mb-0 Tirar alimentos que muestren signos de deterioro (por ejemplo, mal olor, piel viscosa).
-                          p.mb-4 Rechazar una entrega de alimentos con marcas de picadura en el envase (u otros signos de infestación de plagas).
-                          p.mb-0 Transferencia de alimentos perecederos no refrigerados al almacenamiento en frío (5 °C o menos).
+                          p.mb-2 Tirar alimentos que muestren signos de deterioro (por ejemplo, mal olor, piel viscosa).
+                          p.mb-2 Rechazar una entrega de alimentos con marcas de picadura en el envase (u otros signos de infestación de plagas).
+                          p.mb-2 Transferencia de alimentos perecederos no refrigerados al almacenamiento en frío (5 °C o menos).
                           p.mb-0 Desechar alimentos que hayan estado en la zona de peligro de temperatura durante más de cuatro horas.
 
                   .col-lg-12.mb-2
@@ -98,8 +98,8 @@
                         img(src='@/assets/curso/tema4/6.png' alt='AvatarTop')
                       .tarjeta.tarjetamarron
                         .p-4
-                          p.mb-0 Reemplazar las superficies de preparación de alimentos (por ejemplo, tablas de cortar, mesadas) con grietas o rasguños profundos.
-                          p.mb-4 Cambiar los procedimientos de trabajo para mejorar la seguridad y/o calidad de los alimentos.
+                          p.mb-2 Reemplazar las superficies de preparación de alimentos (por ejemplo, tablas de cortar, mesadas) con grietas o rasguños profundos.
+                          p.mb-2 Cambiar los procedimientos de trabajo para mejorar la seguridad y/o calidad de los alimentos.
                           p.mb-0 Asegurar que todo el personal reciba capacitación integral en seguridad alimentaria.
     Separador
 
@@ -285,29 +285,29 @@
             figure
               img(src='@/assets/curso/tema4/vec4.svg', alt='Texto que describa la imagen')
 
-          .tarjeta.clr-paleYellow5.p-3(x="6.8%" y="89%" numero="")
-            .h5.mb-4 1. Análisis de peligros alimentarios
-            p Consiste en la recopilación y evaluación de información sobre peligros para decidir cuáles de ellos son importantes para la seguridad de los alimentos.
+          .tarjeta.clr-paleYellow6.p-3(x="6.8%" y="89%" numero="")
+            .h4.mb-4 Definición del proceso
+            p Se trata de establecer cuáles serán las metodologías, acciones, procedimientos, que permitirán dar cumplimiento a las mejoras.
 
-          .tarjeta.clr-paleYellow5.p-3(x="23.8%" y="6.9%" numero="")
-            .h5.mb-4 2. Identificación de los puntos de control crítico (PCC)
-            p Establecer aquellas etapas en las que se puede aplicar el control para prevenir, eliminar o reducir a niveles aceptables un peligro alimentario.
+          .tarjeta.clr-paleYellow6.p-3(x="23.8%" y="6.9%" numero="")
+            .h4.mb-4 Identificación de las actividades
+            p A partir de cada fuente de información disponible en la organización se extraen aquellos aspectos del funcionamiento que son deficientes y se valora su importancia para la organización.
 
-          .tarjeta.clr-paleYellow5.p-3(x="41%" y="89" numero="")
-            .h5.mb-4 3. Establecimiento de límites de control críticos y medidas preventivas
-            p Temperaturas de refrigeración, temperaturas y tiempos de cocinado, por ejemplo.
+          .tarjeta.clr-paleYellow6.p-3(x="41%" y="89" numero="")
+            .h4.mb-4 Selección del mapa de proceso
+            p El objetivo de un mapa de procesos es delimitar correctamente todos los aspectos clave de los procesos: su responsabilidad, las interrelaciones con otros procesos y, en general, toda la información sobre cómo llevarlos a cabo.
           
-          .tarjeta.clr-paleYellow5.p-3(x="57.8%" y="6.7%" numero="")
-            .h5.mb-4 4. Implantación de un sistema de vigilancia de los PCC
-            p Uso de termómetros, relojes, básculas, etc.
+          .tarjeta.clr-paleYellow6.p-3(x="57.8%" y="6.7%" numero="")
+            .h4.mb-4 Diagrama y documentación
+            p Una documentación de proceso resume los pasos necesarios para completar una tarea o proceso. Es una documentación interna y continua del proceso mientras este se lleva a cabo. En la documentación es más importante el "cómo" de la implementación que el "cuánto" del impacto del proceso. 
 
-          .tarjeta.clr-paleYellow5.p-3(x="74.6%" y="89%" numero="")
-            .h5.mb-2 5. Desarrollo de medidas correctivas
-            p Para aplicarlas en caso de un problema relacionado con la seguridad alimentaria, sabiendo qué hacer con el producto y qué hacer para que no vuelva a suceder.
+          .tarjeta.clr-paleYellow6.p-3(x="74.6%" y="89%" numero="")
+            .h4.mb-2 Revisión
+            p Se trata de un monitoreo constante. Esto favorece el control de los procesos y la trazabilidad de los mismos.
 
-          .tarjeta.clr-paleYellow5.p-3(x="92%" y="6%" numero="")
-            .h5.mb-2 6. Establecimiento de un sistema de verificación
-            p Para garantizar que se está aplicando el APPCC y que es eficaz.
+          .tarjeta.clr-paleYellow6.p-3(x="92%" y="6%" numero="")
+            .h4.mb-2 Oportunidades de mejora
+            p Mientras se monitorean los procesos se buscan las áreas específicas que puedan necesitar un control de calidad para mejorar la eficiencia.
     Separador
 
     #t_4_4.titulo-segundo.color-acento-contenido

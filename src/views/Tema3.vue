@@ -21,7 +21,7 @@
             | El procesamiento.
           li 
             i.fas.fa-angle-right
-            | empaquetado.
+            | El empaquetado.
           li 
             i.fas.fa-angle-right
             | El almacenamiento y el transporte.
@@ -96,7 +96,7 @@
     p.mb-4(data-aos="fade-right") En el siguiente video se muestran algunos aspectos clave para la gestión de los costos del rendimiento, enfocados al proceso de poscosecha; preste mucha atención e identifique los beneficios de aplicar estadísticas sobre costos en esta fase de la producción:
     figure.mb-5(data-aos="fade")
       .video
-        iframe(width="942" height="530" src="https://www.youtube.com/embed/Br6A94g15TA" title="Formulación de planes de mantenimiento preventivo y correctivo en la granja" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="942" height="530" src="https://www.youtube.com/embed/p2VTS3rXo7c" title="Costos del rendimiento en el proceso de poscosecha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
