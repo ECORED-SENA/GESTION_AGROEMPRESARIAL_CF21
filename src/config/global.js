@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Monitoreo y evaluación del proceso de poscosecha en la producción agrícola.',
+      'Monitoreo de programas de alimentación, sanidad y reproducción animal',
     descripcionCurso:
       'Mediante este componente formativo el aprendiz se capacitará para el monitoreo continuo de las actividades productivas, como garantía de calidad en cada uno de los procesos. Asimismo, afianzará sus conocimientos y habilidades para la identificación de acciones y situaciones de mejora y aseguramiento de la competitividad, frente a los demás actores de la actividad productiva.',
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
