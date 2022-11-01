@@ -1,2 +1,2 @@
 module.exports =
-  'Monitoreo y evaluación del proceso de poscosecha en la producción agrícola.'
+  'Monitoreo de programas de alimentación, sanidad y reproducción animal'
